@@ -1,13 +1,13 @@
-package org.meowcat.edxposed.manager.util;
+package org.edxp.manager.util;
 
 import android.content.Context;
 import android.content.res.Configuration;
 import android.content.res.Resources.Theme;
 import android.content.res.TypedArray;
 
-import org.meowcat.edxposed.manager.BaseActivity;
-import org.meowcat.edxposed.manager.R;
-import org.meowcat.edxposed.manager.XposedApp;
+import org.edxp.manager.BaseActivity;
+import org.edxp.manager.R;
+import org.edxp.manager.XposedApp;
 
 public final class ThemeUtil {
     private static final int[] THEMES = new int[]{

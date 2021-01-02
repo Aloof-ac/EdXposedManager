@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.adapter;
+package org.edxp.manager.adapter;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -7,9 +7,9 @@ import android.os.UserHandle;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 
-import org.meowcat.edxposed.manager.LogsFragment;
-import org.meowcat.edxposed.manager.R;
-import org.meowcat.edxposed.manager.XposedApp;
+import org.edxp.manager.LogsFragment;
+import org.edxp.manager.R;
+import org.edxp.manager.XposedApp;
 
 import java.io.File;
 import java.io.IOException;

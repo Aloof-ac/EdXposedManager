@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager;
+package org.edxp.manager;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -23,17 +23,17 @@ import androidx.fragment.app.FragmentTransaction;
 import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.snackbar.Snackbar;
 
-import org.meowcat.edxposed.manager.adapter.AppHelper;
-import org.meowcat.edxposed.manager.adapter.ApplicationListAdapter;
-import org.meowcat.edxposed.manager.util.ModuleUtil;
-import org.meowcat.edxposed.manager.util.ModuleUtil.InstalledModule;
-import org.meowcat.edxposed.manager.util.ModuleUtil.ModuleListener;
-import org.meowcat.edxposed.manager.util.RepoLoader;
-import org.meowcat.edxposed.manager.util.RepoLoader.RepoListener;
-import org.meowcat.edxposed.manager.util.ThemeUtil;
+import org.edxp.manager.adapter.AppHelper;
+import org.edxp.manager.adapter.ApplicationListAdapter;
+import org.edxp.manager.util.ModuleUtil;
+import org.edxp.manager.util.ModuleUtil.InstalledModule;
+import org.edxp.manager.util.ModuleUtil.ModuleListener;
+import org.edxp.manager.util.RepoLoader;
+import org.edxp.manager.util.RepoLoader.RepoListener;
+import org.edxp.manager.util.ThemeUtil;
 
-import static org.meowcat.edxposed.manager.SettingsActivity.getDarkenFactor;
-import static org.meowcat.edxposed.manager.XposedApp.darkenColor;
+import static org.edxp.manager.SettingsActivity.getDarkenFactor;
+import static org.edxp.manager.XposedApp.darkenColor;
 
 public class WelcomeActivity extends BaseActivity
         implements NavigationView.OnNavigationItemSelectedListener,

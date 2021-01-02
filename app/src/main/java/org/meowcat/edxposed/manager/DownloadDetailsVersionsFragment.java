@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager;
+package org.edxp.manager;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -18,25 +18,25 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.ListFragment;
 
-import org.meowcat.edxposed.manager.repo.Module;
-import org.meowcat.edxposed.manager.repo.ModuleVersion;
-import org.meowcat.edxposed.manager.repo.ReleaseType;
-import org.meowcat.edxposed.manager.repo.RepoParser;
-import org.meowcat.edxposed.manager.util.DownloadsUtil;
-import org.meowcat.edxposed.manager.util.HashUtil;
-import org.meowcat.edxposed.manager.util.InstallApkUtil;
-import org.meowcat.edxposed.manager.util.ModuleUtil.InstalledModule;
-import org.meowcat.edxposed.manager.util.RepoLoader;
-import org.meowcat.edxposed.manager.util.ThemeUtil;
-import org.meowcat.edxposed.manager.util.chrome.LinkTransformationMethod;
-import org.meowcat.edxposed.manager.widget.DownloadView;
+import org.edxp.manager.repo.Module;
+import org.edxp.manager.repo.ModuleVersion;
+import org.edxp.manager.repo.ReleaseType;
+import org.edxp.manager.repo.RepoParser;
+import org.edxp.manager.util.DownloadsUtil;
+import org.edxp.manager.util.HashUtil;
+import org.edxp.manager.util.InstallApkUtil;
+import org.edxp.manager.util.ModuleUtil.InstalledModule;
+import org.edxp.manager.util.RepoLoader;
+import org.edxp.manager.util.ThemeUtil;
+import org.edxp.manager.util.chrome.LinkTransformationMethod;
+import org.edxp.manager.widget.DownloadView;
 
 import java.io.File;
 import java.text.DateFormat;
 import java.util.Date;
 import java.util.Objects;
 
-import static org.meowcat.edxposed.manager.XposedApp.WRITE_EXTERNAL_PERMISSION;
+import static org.edxp.manager.XposedApp.WRITE_EXTERNAL_PERMISSION;
 
 public class DownloadDetailsVersionsFragment extends ListFragment {
     private DownloadDetailsActivity mActivity;

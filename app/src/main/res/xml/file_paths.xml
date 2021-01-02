@@ -9,5 +9,5 @@
     <!--suppress AndroidElementNotAllowed -->
     <root-path
         name="log"
-        path="/data/user_de/0/org.meowcat.edxposed.manager/log" />
+        path="/data/user_de/0/org.edxp.manager/log" />
 </paths>

@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.util;
+package org.edxp.manager.util;
 
 import android.content.Context;
 import android.content.Intent;
@@ -20,12 +20,12 @@ import androidx.annotation.NonNull;
 import com.google.android.material.snackbar.Snackbar;
 
 import org.meowcat.annotation.NotProguard;
-import org.meowcat.edxposed.manager.ModulesFragment;
-import org.meowcat.edxposed.manager.R;
-import org.meowcat.edxposed.manager.StatusInstallerFragment;
-import org.meowcat.edxposed.manager.XposedApp;
-import org.meowcat.edxposed.manager.repo.ModuleVersion;
-import org.meowcat.edxposed.manager.repo.RepoDb;
+import org.edxp.manager.ModulesFragment;
+import org.edxp.manager.R;
+import org.edxp.manager.StatusInstallerFragment;
+import org.edxp.manager.XposedApp;
+import org.edxp.manager.repo.ModuleVersion;
+import org.edxp.manager.repo.RepoDb;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -35,8 +35,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-import static org.meowcat.edxposed.manager.MeowCatApplication.TAG;
-import static org.meowcat.edxposed.manager.XposedApp.rw_rw_r__;
+import static org.edxp.manager.MeowCatApplication.TAG;
+import static org.edxp.manager.XposedApp.rw_rw_r__;
 
 public final class ModuleUtil {
     // xposedminversion below this

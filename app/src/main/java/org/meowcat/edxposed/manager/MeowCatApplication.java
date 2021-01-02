@@ -2,7 +2,7 @@
  * Copyright (c) 2013-2020 MeowCat Studio Powered by MlgmXyysd All Rights Reserved.
  */
 
-package org.meowcat.edxposed.manager;
+package org.edxp.manager;
 
 import android.os.Build;
 

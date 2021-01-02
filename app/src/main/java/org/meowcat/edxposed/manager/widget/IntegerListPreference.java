@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.widget;
+package org.edxp.manager.widget;
 
 import android.content.Context;
 import android.content.SharedPreferences;

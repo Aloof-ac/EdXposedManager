@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager;
+package org.edxp.manager;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -21,10 +21,10 @@ import com.afollestad.materialdialogs.color.ColorChooserDialog;
 import com.afollestad.materialdialogs.folderselector.FolderChooserDialog;
 import com.topjohnwu.superuser.Shell;
 
-import org.meowcat.edxposed.manager.adapter.AppHelper;
-import org.meowcat.edxposed.manager.adapter.ApplicationListAdapter;
-import org.meowcat.edxposed.manager.util.RepoLoader;
-import org.meowcat.edxposed.manager.widget.IconListPreference;
+import org.edxp.manager.adapter.AppHelper;
+import org.edxp.manager.adapter.ApplicationListAdapter;
+import org.edxp.manager.util.RepoLoader;
+import org.edxp.manager.widget.IconListPreference;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -32,10 +32,10 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Objects;
 
-import static org.meowcat.edxposed.manager.SettingsActivity.getDarkenFactor;
-import static org.meowcat.edxposed.manager.XposedApp.WRITE_EXTERNAL_PERMISSION;
-import static org.meowcat.edxposed.manager.XposedApp.darkenColor;
-import static org.meowcat.edxposed.manager.XposedApp.getPreferences;
+import static org.edxp.manager.SettingsActivity.getDarkenFactor;
+import static org.edxp.manager.XposedApp.WRITE_EXTERNAL_PERMISSION;
+import static org.edxp.manager.XposedApp.darkenColor;
+import static org.edxp.manager.XposedApp.getPreferences;
 
 public class SettingsFragment extends BasePreferenceFragment implements Preference.OnPreferenceClickListener, SharedPreferences.OnSharedPreferenceChangeListener {
 

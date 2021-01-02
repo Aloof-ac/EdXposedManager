@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager;
+package org.edxp.manager;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -8,9 +8,9 @@ import androidx.annotation.NonNull;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceManager;
 
-import org.meowcat.edxposed.manager.repo.Module;
-import org.meowcat.edxposed.manager.util.PrefixedSharedPreferences;
-import org.meowcat.edxposed.manager.util.RepoLoader;
+import org.edxp.manager.repo.Module;
+import org.edxp.manager.util.PrefixedSharedPreferences;
+import org.edxp.manager.util.RepoLoader;
 
 import java.util.Map;
 import java.util.Objects;

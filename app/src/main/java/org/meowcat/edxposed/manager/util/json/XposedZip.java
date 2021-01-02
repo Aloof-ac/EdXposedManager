@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.util.json;
+package org.edxp.manager.util.json;
 
 import android.app.Activity;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.util.chrome;
+package org.edxp.manager.util.chrome;
 
 import android.app.Activity;
 import android.graphics.Rect;

@@ -1,13 +1,13 @@
-package org.meowcat.edxposed.manager.receiver;
+package org.edxp.manager.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 
-import org.meowcat.edxposed.manager.util.ModuleUtil;
-import org.meowcat.edxposed.manager.util.ModuleUtil.InstalledModule;
-import org.meowcat.edxposed.manager.util.NotificationUtil;
+import org.edxp.manager.util.ModuleUtil;
+import org.edxp.manager.util.ModuleUtil.InstalledModule;
+import org.edxp.manager.util.NotificationUtil;
 
 import java.util.Objects;
 

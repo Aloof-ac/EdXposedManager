@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.util;
+package org.edxp.manager.util;
 
 import android.content.Context;
 import android.content.res.Configuration;

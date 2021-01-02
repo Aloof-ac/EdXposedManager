@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.widget;
+package org.edxp.manager.widget;
 
 /*
  * Copyright (C) 2013 The Android Open Source Project
@@ -40,7 +40,7 @@ import androidx.preference.ListPreference;
 import androidx.preference.PreferenceDialogFragmentCompat;
 import androidx.preference.PreferenceViewHolder;
 
-import org.meowcat.edxposed.manager.R;
+import org.edxp.manager.R;
 
 import java.util.ArrayList;
 import java.util.List;

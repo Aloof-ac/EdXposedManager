@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager;
+package org.edxp.manager;
 
 import android.annotation.SuppressLint;
 import android.content.SharedPreferences;
@@ -25,14 +25,14 @@ import com.annimon.stream.Stream;
 import com.google.android.material.tabs.TabLayout;
 import com.google.gson.Gson;
 
-import org.meowcat.edxposed.manager.util.json.JSONUtils;
-import org.meowcat.edxposed.manager.util.json.XposedTab;
+import org.edxp.manager.util.json.JSONUtils;
+import org.edxp.manager.util.json.XposedTab;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import static android.content.Context.MODE_PRIVATE;
-import static org.meowcat.edxposed.manager.MeowCatApplication.TAG;
+import static org.edxp.manager.MeowCatApplication.TAG;
 
 public class AdvancedInstallerFragment extends BaseFragment {
 

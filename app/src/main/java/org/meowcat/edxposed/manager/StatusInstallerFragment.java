@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager;
+package org.edxp.manager;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -26,7 +26,7 @@ import com.afollestad.materialdialogs.MaterialDialog;
 import com.google.android.material.snackbar.Snackbar;
 
 import org.meowcat.annotation.NotProguard;
-import org.meowcat.edxposed.manager.util.NavUtil;
+import org.edxp.manager.util.NavUtil;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -41,7 +41,7 @@ import dalvik.system.VMRuntime;
 import static android.os.Build.SUPPORTED_32_BIT_ABIS;
 import static android.os.Build.SUPPORTED_64_BIT_ABIS;
 import static android.os.SELinux.isSELinuxEnabled;
-import static org.meowcat.edxposed.manager.MeowCatApplication.TAG;
+import static org.edxp.manager.MeowCatApplication.TAG;
 
 @SuppressLint("StaticFieldLeak")
 public class StatusInstallerFragment extends Fragment {

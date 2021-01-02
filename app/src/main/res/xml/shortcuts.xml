@@ -11,7 +11,7 @@
     <!--<intent-->
     <!--android:action="android.intent.action.MAIN"-->
     <!--android:targetClass="de.robv.android.xposed.installer.WelcomeActivity"-->
-    <!--android:targetPackage="org.meowcat.edxposed.manager">-->
+    <!--android:targetPackage="org.edxp.manager">-->
     <!--<extra-->
     <!--android:name="fragment"-->
     <!--android:value="0"/>-->
@@ -28,7 +28,7 @@
     <!--<intent-->
     <!--android:action="android.intent.action.MAIN"-->
     <!--android:targetClass=".WelcomeActivity"-->
-    <!--android:targetPackage="org.meowcat.edxposed.manager">-->
+    <!--android:targetPackage="org.edxp.manager">-->
     <!--<extra-->
     <!--android:name="fragment"-->
     <!--android:value="1"/>-->
@@ -45,7 +45,7 @@
     <!--<intent-->
     <!--android:action="android.intent.action.MAIN"-->
     <!--android:targetClass=".WelcomeActivity"-->
-    <!--android:targetPackage="org.meowcat.edxposed.manager">-->
+    <!--android:targetPackage="org.edxp.manager">-->
     <!--<extra-->
     <!--android:name="fragment"-->
     <!--android:value="2"/>-->
@@ -61,8 +61,8 @@
         tools:targetApi="n_mr1">
         <intent
             android:action="android.intent.action.MAIN"
-            android:targetClass="org.meowcat.edxposed.manager.WelcomeActivity"
-            android:targetPackage="org.meowcat.edxposed.manager">
+            android:targetClass="org.edxp.manager.WelcomeActivity"
+            android:targetPackage="org.edxp.manager">
             <extra
                 android:name="fragment"
                 android:value="3" />
@@ -78,8 +78,8 @@
         tools:targetApi="n_mr1">
         <intent
             android:action="android.intent.action.MAIN"
-            android:targetClass="org.meowcat.edxposed.manager.WelcomeActivity"
-            android:targetPackage="org.meowcat.edxposed.manager">
+            android:targetClass="org.edxp.manager.WelcomeActivity"
+            android:targetPackage="org.edxp.manager">
             <extra
                 android:name="fragment"
                 android:value="4" />
@@ -96,7 +96,7 @@
     <!--<intent-->
     <!--android:action="android.intent.action.MAIN"-->
     <!--android:targetClass=".WelcomeActivity"-->
-    <!--android:targetPackage="org.meowcat.edxposed.manager">-->
+    <!--android:targetPackage="org.edxp.manager">-->
     <!--<extra-->
     <!--android:name="fragment"-->
     <!--android:value="5"/>-->
@@ -113,7 +113,7 @@
     <!--<intent-->
     <!--android:action="android.intent.action.MAIN"-->
     <!--android:targetClass="de.robv.android.xposed.installer.WelcomeActivity"-->
-    <!--android:targetPackage="org.meowcat.edxposed.manager">-->
+    <!--android:targetPackage="org.edxp.manager">-->
     <!--<extra-->
     <!--android:name="fragment"-->
     <!--android:value="6"/>-->

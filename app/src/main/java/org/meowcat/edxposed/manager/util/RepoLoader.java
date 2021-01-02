@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.util;
+package org.edxp.manager.util;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -16,18 +16,18 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 
-import org.meowcat.edxposed.manager.DownloadFragment;
-import org.meowcat.edxposed.manager.R;
-import org.meowcat.edxposed.manager.WelcomeActivity;
-import org.meowcat.edxposed.manager.XposedApp;
-import org.meowcat.edxposed.manager.repo.Module;
-import org.meowcat.edxposed.manager.repo.ModuleVersion;
-import org.meowcat.edxposed.manager.repo.ReleaseType;
-import org.meowcat.edxposed.manager.repo.RepoDb;
-import org.meowcat.edxposed.manager.repo.RepoParser;
-import org.meowcat.edxposed.manager.repo.RepoParser.RepoParserCallback;
-import org.meowcat.edxposed.manager.repo.Repository;
-import org.meowcat.edxposed.manager.util.DownloadsUtil.SyncDownloadInfo;
+import org.edxp.manager.DownloadFragment;
+import org.edxp.manager.R;
+import org.edxp.manager.WelcomeActivity;
+import org.edxp.manager.XposedApp;
+import org.edxp.manager.repo.Module;
+import org.edxp.manager.repo.ModuleVersion;
+import org.edxp.manager.repo.ReleaseType;
+import org.edxp.manager.repo.RepoDb;
+import org.edxp.manager.repo.RepoParser;
+import org.edxp.manager.repo.RepoParser.RepoParserCallback;
+import org.edxp.manager.repo.Repository;
+import org.edxp.manager.util.DownloadsUtil.SyncDownloadInfo;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -44,7 +44,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.zip.GZIPInputStream;
 
-import static org.meowcat.edxposed.manager.MeowCatApplication.TAG;
+import static org.edxp.manager.MeowCatApplication.TAG;
 
 public class RepoLoader {
     private static final int UPDATE_FREQUENCY = 24 * 60 * 60 * 1000;

@@ -1,7 +1,7 @@
 package de.robv.android.xposed.installer.util;
 
 import org.meowcat.annotation.NotProguard;
-import org.meowcat.edxposed.manager.util.ModuleUtil;
+import org.edxp.manager.util.ModuleUtil;
 
 import java.io.BufferedReader;
 import java.io.IOException;

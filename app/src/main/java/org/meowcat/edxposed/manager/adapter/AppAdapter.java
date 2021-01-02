@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.adapter;
+package org.edxp.manager.adapter;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -29,11 +29,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.topjohnwu.superuser.Shell;
 
-import org.meowcat.edxposed.manager.R;
-import org.meowcat.edxposed.manager.XposedApp;
-import org.meowcat.edxposed.manager.util.InstallApkUtil;
-import org.meowcat.edxposed.manager.util.NavUtil;
-import org.meowcat.edxposed.manager.util.ThemeUtil;
+import org.edxp.manager.R;
+import org.edxp.manager.XposedApp;
+import org.edxp.manager.util.InstallApkUtil;
+import org.edxp.manager.util.NavUtil;
+import org.edxp.manager.util.ThemeUtil;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -44,7 +44,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
-import static org.meowcat.edxposed.manager.BaseFragment.areYouSure;
+import static org.edxp.manager.BaseFragment.areYouSure;
 
 public class AppAdapter extends RecyclerView.Adapter<AppAdapter.ViewHolder> implements Filterable {
 

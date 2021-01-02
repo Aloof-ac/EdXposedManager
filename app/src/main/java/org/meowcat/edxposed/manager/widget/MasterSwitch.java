@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.widget;
+package org.edxp.manager.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -15,7 +15,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.SwitchCompat;
 
-import org.meowcat.edxposed.manager.R;
+import org.edxp.manager.R;
 
 public class MasterSwitch extends FrameLayout implements View.OnClickListener, Checkable {
 

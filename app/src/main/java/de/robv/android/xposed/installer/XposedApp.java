@@ -13,7 +13,7 @@ import java.io.IOException;
 import de.robv.android.xposed.installer.util.InstallZipUtil;
 
 import static de.robv.android.xposed.installer.util.InstallZipUtil.parseXposedProp;
-import static org.meowcat.edxposed.manager.MeowCatApplication.TAG;
+import static org.edxp.manager.MeowCatApplication.TAG;
 
 @NotProguard
 @SuppressLint("Registered")

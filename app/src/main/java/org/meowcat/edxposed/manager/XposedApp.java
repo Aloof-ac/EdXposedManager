@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager;
+package org.edxp.manager;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -30,10 +30,10 @@ import android.util.Log;
 import androidx.appcompat.app.ActionBar;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
-import org.meowcat.edxposed.manager.receiver.PackageChangeReceiver;
-import org.meowcat.edxposed.manager.util.ModuleUtil;
-import org.meowcat.edxposed.manager.util.NotificationUtil;
-import org.meowcat.edxposed.manager.util.RepoLoader;
+import org.edxp.manager.receiver.PackageChangeReceiver;
+import org.edxp.manager.util.ModuleUtil;
+import org.edxp.manager.util.NotificationUtil;
+import org.edxp.manager.util.RepoLoader;
 
 import java.io.File;
 import java.io.IOException;
@@ -47,8 +47,8 @@ import java.util.Objects;
 
 import de.robv.android.xposed.installer.util.InstallZipUtil;
 
-import static org.meowcat.edxposed.manager.MeowCatApplication.TAG;
-import static org.meowcat.edxposed.manager.adapter.AppHelper.FORCE_WHITE_LIST_MODULE;
+import static org.edxp.manager.MeowCatApplication.TAG;
+import static org.edxp.manager.adapter.AppHelper.FORCE_WHITE_LIST_MODULE;
 
 @SuppressLint("Registered")
 public class XposedApp extends de.robv.android.xposed.installer.XposedApp implements ActivityLifecycleCallbacks {

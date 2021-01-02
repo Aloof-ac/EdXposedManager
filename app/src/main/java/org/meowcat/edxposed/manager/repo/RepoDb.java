@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager.repo;
+package org.edxp.manager.repo;
 
 import android.annotation.SuppressLint;
 import android.content.ContentValues;
@@ -10,19 +10,19 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.text.TextUtils;
 import android.util.Pair;
 
-import org.meowcat.edxposed.manager.BuildConfig;
-import org.meowcat.edxposed.manager.XposedApp;
-import org.meowcat.edxposed.manager.repo.RepoDbDefinitions.InstalledModulesColumns;
-import org.meowcat.edxposed.manager.repo.RepoDbDefinitions.InstalledModulesUpdatesColumns;
-import org.meowcat.edxposed.manager.repo.RepoDbDefinitions.ModuleVersionsColumns;
-import org.meowcat.edxposed.manager.repo.RepoDbDefinitions.ModulesColumns;
-import org.meowcat.edxposed.manager.repo.RepoDbDefinitions.MoreInfoColumns;
-import org.meowcat.edxposed.manager.repo.RepoDbDefinitions.OverviewColumns;
-import org.meowcat.edxposed.manager.repo.RepoDbDefinitions.OverviewColumnsIndexes;
-import org.meowcat.edxposed.manager.repo.RepoDbDefinitions.RepositoriesColumns;
-import org.meowcat.edxposed.manager.util.ModuleUtil;
-import org.meowcat.edxposed.manager.util.ModuleUtil.InstalledModule;
-import org.meowcat.edxposed.manager.util.RepoLoader;
+import org.edxp.manager.BuildConfig;
+import org.edxp.manager.XposedApp;
+import org.edxp.manager.repo.RepoDbDefinitions.InstalledModulesColumns;
+import org.edxp.manager.repo.RepoDbDefinitions.InstalledModulesUpdatesColumns;
+import org.edxp.manager.repo.RepoDbDefinitions.ModuleVersionsColumns;
+import org.edxp.manager.repo.RepoDbDefinitions.ModulesColumns;
+import org.edxp.manager.repo.RepoDbDefinitions.MoreInfoColumns;
+import org.edxp.manager.repo.RepoDbDefinitions.OverviewColumns;
+import org.edxp.manager.repo.RepoDbDefinitions.OverviewColumnsIndexes;
+import org.edxp.manager.repo.RepoDbDefinitions.RepositoriesColumns;
+import org.edxp.manager.util.ModuleUtil;
+import org.edxp.manager.util.ModuleUtil.InstalledModule;
+import org.edxp.manager.util.RepoLoader;
 
 import java.io.File;
 import java.util.LinkedHashMap;

@@ -1,4 +1,4 @@
-package org.meowcat.edxposed.manager;
+package org.edxp.manager;
 
 import android.content.pm.ApplicationInfo;
 import android.os.Bundle;
@@ -16,9 +16,9 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
-import org.meowcat.edxposed.manager.adapter.AppAdapter;
-import org.meowcat.edxposed.manager.adapter.AppHelper;
-import org.meowcat.edxposed.manager.adapter.CompatListAdapter;
+import org.edxp.manager.adapter.AppAdapter;
+import org.edxp.manager.adapter.AppHelper;
+import org.edxp.manager.adapter.CompatListAdapter;
 
 public class CompatListFragment extends Fragment implements AppAdapter.Callback {
 
