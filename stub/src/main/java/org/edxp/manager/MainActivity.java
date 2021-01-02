@@ -66,7 +66,7 @@ public class MainActivity extends Activity {
                 .setTitle(R.string.app_name)
                 .setMessage(getString(R.string.status_text) + ": " + xposedStatus + "\n\n" + getString(R.string.upgrade_msg))
                 .setPositiveButton(android.R.string.ok, (d, w) -> {
-                    Intent intent = new Intent(Intent.ACTION_VIEW, parseURL("https://github.com/ElderDrivers/EdXposedManager/releases/latest"));
+                    Intent intent = new Intent(Intent.ACTION_VIEW, parseURL("https://ci.appveyor.com/project/naicfeng/edxposed/history"));
                     intent.putExtra(Browser.EXTRA_APPLICATION_ID, getPackageName());
                     startActivity(intent);
                     finish();
