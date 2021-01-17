@@ -119,7 +119,7 @@ public class StatusInstallerFragment extends Fragment {
         return info + " (" + getArch() + ")";
     }
 
-    private static String getArch() {
+    public static String getArch() {
         if (CPU_ABI.equals("arm64-v8a")) {
             return "arm64";
         } else if (CPU_ABI.equals("x86_64")) {
@@ -161,8 +161,7 @@ public class StatusInstallerFragment extends Fragment {
         sActivity = getActivity();
     }
 
-    @SuppressLint("WorldReadableFiles")
-    @SuppressWarnings({"ResultOfMethodCallIgnored", "deprecation"})
+    @SuppressWarnings({"ResultOfMethodCallIgnored"})
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.status_installer, container, false);
@@ -257,7 +256,6 @@ public class StatusInstallerFragment extends Fragment {
                     FileOutputStream fos = null;
                     try {
                         fos = new FileOutputStream(DISABLE_FILE.getPath());
-                        XposedApp.setFilePermissionsFromMode(DISABLE_FILE.getPath(), Context.MODE_WORLD_READABLE);
                     } catch (FileNotFoundException e) {
                         e.printStackTrace();
                     } finally {
